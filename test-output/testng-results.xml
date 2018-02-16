@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77" started-at="2017-12-30T05:48:25Z" finished-at="2017-12-30T05:48:26Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="NewTest.Scooter1()[pri:0, instance:NewTest@7a187f14]" name="Scooter1" class="NewTest"/>
+        <method signature="NewTest.Scooter2()[pri:0, instance:NewTest@7a187f14]" name="Scooter2" class="NewTest"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="NewTest.Car1()[pri:0, instance:NewTest@7a187f14]" name="Car1" class="NewTest"/>
+        <method signature="NewTest.Car2()[pri:0, instance:NewTest@7a187f14]" name="Car2" class="NewTest"/>
+        <method signature="NewTest.Sedan1()[pri:0, instance:NewTest@7a187f14]" name="Sedan1" class="NewTest"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="NewTest.Sedan1()[pri:0, instance:NewTest@7a187f14]" name="Sedan1" class="NewTest"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Default test" duration-ms="77" started-at="2017-12-30T05:48:25Z" finished-at="2017-12-30T05:48:26Z">
+      <class name="NewTest">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:NewTest@7a187f14]" name="Car1" duration-ms="18" started-at="2017-12-30T11:18:25Z" finished-at="2017-12-30T11:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:NewTest@7a187f14]" name="Car2" duration-ms="2" started-at="2017-12-30T11:18:25Z" finished-at="2017-12-30T11:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:NewTest@7a187f14]" name="Scooter1" duration-ms="2" started-at="2017-12-30T11:18:25Z" finished-at="2017-12-30T11:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:NewTest@7a187f14]" name="Scooter2" duration-ms="1" started-at="2017-12-30T11:18:25Z" finished-at="2017-12-30T11:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:NewTest@7a187f14]" name="Sedan1" duration-ms="2" started-at="2017-12-30T11:18:26Z" finished-at="2017-12-30T11:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
