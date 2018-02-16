@@ -35,6 +35,7 @@ public class NewTest {
 	  public void Car2() {
 	 
 		  System.out.println("Batch Car - Test car 2");
+		  
 	 
 	  }
 	 
